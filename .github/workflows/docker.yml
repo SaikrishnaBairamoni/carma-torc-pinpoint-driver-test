@@ -8,4 +8,5 @@ jobs:
   docker:
     with:
       tag_name_suffix: humble
+      runner: ubuntu-latest
     uses: usdot-fhwa-stol/actions/.github/workflows/docker.yml@main
